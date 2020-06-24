@@ -6,10 +6,10 @@ loop do
   print("gender: ")
   gender = gets.chomp.to_s
 
-  if "male" == gender.downcase
+  if gender.downcase.eql?("male")
     puts("Hello Mr #{firstName}, #{lastName}")
     break
-  elsif "female" == gender.downcase
+  elsif gender.downcase.eql?("female")
     puts("Hello Ms #{firstName}, #{lastName}")
     break
   else

@@ -1,4 +1,4 @@
-def start_if?(s = "string")
+def start_if(s = "string")
   if s.length < 2
     false
   end
@@ -9,4 +9,4 @@ def start_if?(s = "string")
   end
 end
 
-puts start_if?('iffffffff')
+puts start_if('iffffffff')
