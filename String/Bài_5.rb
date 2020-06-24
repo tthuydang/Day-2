@@ -6,4 +6,4 @@ def bai5(n, i = 0)
   end
 end
 
-bai5(5)
+bai5(rand(0..100))
